@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    int array[5];
+    printf("Size of the array: %lu bytes\n", sizeof(array));
+    printf("Size of an integer: %lu bytes\n", sizeof(int));
+    return 0;
+}
